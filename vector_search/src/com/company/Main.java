@@ -26,6 +26,7 @@ public class Main {
             System.out.println();
         }
         System.out.println("Закончился подсчет векторов");
+        System.out.println("Введите запрос: ");
         Scanner scanner = new Scanner(System.in);
         String searchLine = scanner.nextLine().toLowerCase();
         ArrayList<String> search = new ArrayList<>(List.of(searchLine.split(" ")));
